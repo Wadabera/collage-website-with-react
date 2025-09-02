@@ -1,0 +1,25 @@
+.vidio{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.9);
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+}
+.vidio video{
+  width: 90%;
+  max-width: 900px;
+  height: auto;
+  border: 4px solid #fff;
+
+}
+.vidio.hide{
+  display: none;
+
+}
